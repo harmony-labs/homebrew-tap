@@ -10,22 +10,22 @@ class MetaCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-darwin-arm64.tar.gz"
-      sha256 "59688fa9a989066c63ffc6942b9bf607f135746bd3b1180d84827e17f034d9b5"
+      sha256 "b35befa78e95459928af3291228b2f33ef65ae5f9f0a1e7451de04516cdb7dfd"
     end
     on_intel do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-darwin-x64.tar.gz"
-      sha256 "2ca46c08e3c23d0d348917eeadd0b65614592ce70699ce6dfd8935f92e8224f7"
+      sha256 "22379ab863f50f692194f9384f112555bdad19efd116c7962637f41d40f02ba5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-linux-arm64.tar.gz"
-      sha256 "975551ba9504972e0dd20d3a63eeb9b6b61c929eb5b8a2ccc41219e6828d9668"
+      sha256 "edca7dd2e061c09c8fba09d58acf724d6383cf4aa4e6eea04ec8cfc3f1379988"
     end
     on_intel do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-linux-x64.tar.gz"
-      sha256 "485e00346e03d4806ad1fd57da86bba9697bb9eb65b863125396173929fc2d27"
+      sha256 "ac36f87bb373951472edc4f271f4630ee05b856fbcf99e581d4348af62012fca"
     end
   end
 
