@@ -4,28 +4,28 @@
 class MetaCli < Formula
   desc "Multi-repo management CLI with AI integration"
   homepage "https://github.com/harmony-labs/meta"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-darwin-arm64.tar.gz"
-      sha256 "fa4e906cd2bbac18f782a0b71b62981ef7ed048465144513fe2c542600816247"
+      sha256 "7522b2781b2e1082de06bb9bb4bb625a55f41240cf3243db8c0572657f78290d"
     end
     on_intel do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-darwin-x64.tar.gz"
-      sha256 "c2b936803c5768d0ea6fdbc81f6c7ee2f854b06f10b58cf4fb103bae3d9e8be5"
+      sha256 "3b762fb6f6c47664ff7d19ceecf3008cc6bca7912323b993b6367e98bc4f0345"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-linux-arm64.tar.gz"
-      sha256 "b02bfbf266792d592e6cca9abd64ae2ccd9f94aa5ea0d44209eaf5f92f7680d7"
+      sha256 "5b77fb4aba75949f742917a2a681fe96c5a4f90b0276565a5fb9d708130bf39c"
     end
     on_intel do
       url "https://github.com/harmony-labs/meta/releases/download/v#{version}/meta-linux-x64.tar.gz"
-      sha256 "4a614d0964b077052bd63829647930a9b2fd246921b6659153136c5b14726048"
+      sha256 "b9de7ac0d24f897ab5505fd3b36c0bc63e5bb3dfaee596e0cc92f1810a4d9715"
     end
   end
 
