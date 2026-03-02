@@ -4,28 +4,28 @@
 class Gitkb < Formula
   desc "Git-native knowledge base with AI-powered code intelligence"
   homepage "https://github.com/harmony-labs/gitkb-releases"
-  version "0.1.14"
+  version "0.1.15"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/harmony-labs/gitkb-releases/releases/download/v#{version}/gitkb-darwin-arm64.tar.gz"
-      sha256 "f2c86239836ff30fe3ac9d11774bc16a9da9c3874ca99d71847ac3797b0e0be7"
+      sha256 "e379a121252b5c40be2ccd34d972d117f1b72838b42ec80630c7dcbc0a006a8a"
     end
     on_intel do
       url "https://github.com/harmony-labs/gitkb-releases/releases/download/v#{version}/gitkb-darwin-x64.tar.gz"
-      sha256 "eeb935806c62a6e138d34c59208d05b65caf4e86288b9eae1c1561597753e982"
+      sha256 "d4c37234a6b949850faa9578300c868ff4ed2972fd5086a8969100bac751a64e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/harmony-labs/gitkb-releases/releases/download/v#{version}/gitkb-linux-arm64.tar.gz"
-      sha256 "0862bceca0534c27d3bc9c9450b56e6fd58f65b1a3941ca2afafdaa81ca07b75"
+      sha256 "349d47c91a461dddf61ad2f47e9966d60369b7bc05d36346fbe43cc671e8f7e0"
     end
     on_intel do
       url "https://github.com/harmony-labs/gitkb-releases/releases/download/v#{version}/gitkb-linux-x64.tar.gz"
-      sha256 "9570f8e53fb67b215c0f8c1bcfb341564bd1515a4f9cc86341ed077280a02bee"
+      sha256 "ebfa73f8338f94ab026ab0431bd3d412f7a833b91f5adbe138fe48b5e65ad242"
     end
   end
 
